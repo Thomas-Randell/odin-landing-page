@@ -21,7 +21,7 @@ h1 {
 nav {
     background-color: #1f2937;
     color: white;
-    padding: 0 64px;
+    width: 100%;
 }
 
 a {
@@ -31,8 +31,9 @@ a {
 
 .navigation {
     display: flex;
-    gap: 8px;
+    padding: 0 64px;
     align-items: center;
+    gap: 4px;
 }
 
 .navigation h3 {
@@ -43,11 +44,10 @@ a {
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-evenly;
-    padding: 64px;
+    justify-content: space-around;
     text-align: left;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .header-text {
